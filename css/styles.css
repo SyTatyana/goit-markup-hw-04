@@ -115,6 +115,9 @@ ul {
 .site-nav .list-item:not(:last-child) {
     margin-right: 50px;
 }
+.contact-icon{
+    margin-right: 10px;
+}
 
 .header .container .list {
     justify-content: flex-end;
@@ -125,7 +128,17 @@ ul{
 }
 /*Hero*/
 .hero-section{
+max-height: 600px;
+max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
+
 background-color: var(--tertiary-background-color);
+background-image: url('../images/background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
 
 padding-top: 200px;
 padding-bottom: 200px;
@@ -167,6 +180,19 @@ text-transform: uppercase;
     color: var(--primary-text-color);
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.advantage-icon{
+content: "";
+height: 120px;
+width: 270px;
+display: inline-block;
+margin-bottom: 30px;
+border-radius: 4px;
+
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--quaternary-background-color);
 }
 .advantage-list{
     display: flex;
@@ -363,7 +389,6 @@ padding-bottom: 94px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding: 20px 24px;
-    margin-bottom: 20px;
 }
 .project-name{
     color: var(--secondary-text-color);
